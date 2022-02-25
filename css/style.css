@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+:root{
+
+/* Primary */
+
+--Light-Cyan: hsl(193, 38%, 86%);
+--Neon-Green: hsl(150, 100%, 66%);
+
+/*  Neutral */
+
+--Grayish-Blue: hsl(217, 19%, 38%);
+--Dark-Grayish-Blue: hsl(217, 19%, 24%);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:#202632;
+    font-family:  'Manrope', sans-serif;
+}
+
+.container{
+    position: relative;
+    background-color: var(--Dark-Grayish-Blue);
+    width: min(90vw,53rem);
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    padding: 5rem 3rem;
+    
+}
+.container h1{
+color: var(--Neon-Green);
+font-size: 1.4rem;
+letter-spacing: 0.25em;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+.container p{
+    color: var(--Light-Cyan);
+    font-size: 2.8rem;
+    padding-block: 4rem;
+}
+
+button{
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translate(-50%,50%);
+width: 6rem;
+aspect-ratio: 1;
+border: none;
+border-radius: 50%;
+background-color: var(--Neon-Green);
+cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 0 10px 5px var(--Light-Cyan);
+}
+button img{
+    display: block;
+    margin: auto;
+    
+}
+.divider,
+.divider picture{
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    position:absolute ;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
