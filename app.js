@@ -19,4 +19,3 @@ let gettingAdvice = async (url)=>{
 window.onload=async()=> await gettingAdvice(url);
 // btn functionality
 btn.addEventListener('click',()=>gettingAdvice(url));
-
