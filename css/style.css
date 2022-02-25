@@ -57,6 +57,7 @@ font-weight: 600;
     color: var(--Light-Cyan);
     font-size: 2.8rem;
     padding-block: 4rem;
+    font-weight: 800;
 }
 
 button{

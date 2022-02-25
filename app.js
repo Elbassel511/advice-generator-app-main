@@ -10,7 +10,7 @@ let gettingAdvice = async (url)=>{
         try {
             let result = await answer.json();
             adviceId.innerHTML = `Advice #${result.slip.id}`
-            adviseText.innerHTML = result.slip.advice
+            adviseText.innerHTML = `&ldquo; ${result.slip.advice}&rdquo;`
         } catch (error) {
           console.log("error:" + error);
         }
